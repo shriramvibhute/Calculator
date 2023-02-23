@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.container {
+    width: 370px;
+    height: 640px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+}
+
+input {
+    border: none;
+    width: 340px;
+    height: 50px;
+    background: white;
+    outline: none;
+    margin-top: 160px;
+    margin-left: 15px;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+div.display {
+    width: 400px;
+    height: 320px;
+}
+
+div.keys {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.row1,
+.row2,
+.row3,
+.row4,
+.row5 {
+    height: 64px;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.btnrow1,
+.btnrow2,
+.btnrow3,
+.btnrow4,
+.btnrow5 {
+    margin: 0px 16px 10px 16px;
+}
+
+button {
+    font-size: 35px;
+    width: 60px;
+    height: 60px;
+    border: none;
+    color: coral;
+    background-color: transparent;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, border-radius 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+button#ac {
+    font-size: 23px;
+}
+
+button#keyequal {
+    border-radius: 40px;
+    background-color: orange;
+    color: black;
+    font-size: 40px;
+    box-shadow: 0px 0px 10px orange;
+}
+
+.numkeys {
+    color: black;
+}
+
+.numkeys:hover {
+    color: black;
+    text-shadow: 0px 0px 5px white;
+    border-radius: 40px;
+    box-shadow: 0px 0px 40px rgb(219, 215, 215);
+}
+
+.otherkeys {
+    transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, border-radius 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.otherkeys:hover {
+    background-color: rgb(0, 255, 255);
+    border-radius: 40px;
+    color: black;
+    box-shadow: 0px 3px 3px black;
+}
+
+#keylg {
+    font-size: 25px;
+    color: black;
+}
+
+#keydot {
+    color: black;
+    font-size: 40px;
+}
+
+p#p1 {
+    margin: 0px 45px 20px 45px;
+    color: rgb(211, 211, 211);
+}
+
+.tp {
+    width: 60px;
+    height: 60px;
+    transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, border-radius 0.2s ease-in-out, color 0.2s ease-in-out;
+    margin-bottom: 84px;
+    margin-right: 97px;
+    position: absolute;
+    color: coral;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tp:hover {
+    background-color: rgb(0, 255, 255);
+    border-radius: 40px;
+    color: black;
+    box-shadow: 0px 3px 3px black;
+}
+
+#BackSpace {
+    font-size: 0px;
+}

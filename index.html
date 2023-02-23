@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section>
+        <main>
+            <div class="tp">
+                <i class="material-icons" onclick="back()">backspace</i>
+            </div>
+            <div class="container">
+                <div class="display"  id="cont">
+                    <input type="text" id="inpv">
+                </div>
+                <p id="p1">___________________________________</p>
+                <div class="keys">
+                    <div class="row1">
+                        <button class="btnrow1 otherkeys buttons" id="ac">AC</button>
+                        <button class="btnrow1 otherkeys buttons" id="BackSpace">backspace</button>
+                        <button class="btnrow1 otherkeys buttons" id="key_%">%</button>
+                        <button class="btnrow1 otherkeys buttons" id="+">+</button>
+                    </div>
+                    <div class="row2">
+                        <button class="btnrow2 numkeys buttons" id="key1" value="1">1</button>
+                        <button class="btnrow2 numkeys buttons" id="key2" value="2">2</button>
+                        <button class="btnrow2 numkeys buttons" id="key3" value="3">3</button>
+                        <button class="btnrow2 otherkeys buttons" id="key-" value="-">-</button>
+                    </div>
+                    <div class="row3">
+                        <button class="btnrow3 numkeys buttons" id="key4" value="4">4</button>
+                        <button class="btnrow3 numkeys buttons" id="key5" value="5">5</button>
+                        <button class="btnrow3 numkeys buttons" id="key6" value="6">6</button>
+                        <button class="btnrow3 otherkeys buttons" id="key*" value="*">*</button>
+                    </div>
+                    <div class="row4">
+                        <button class="btnrow4 numkeys buttons" id="key7" value="7">7</button>
+                        <button class="btnrow4 numkeys buttons" id="key8" value="8">8</button>
+                        <button class="btnrow4 numkeys buttons" id="key9" value="9">9</button>
+                        <button class="btnrow4 otherkeys buttons" id="key/" value="/">/</i></button>
+                    </div>
+                    <div class="row5">
+                        <button class="btnrow5" id="keylg" value="lg" onclick = darktheam()><i
+                                class="fa fa-adjust"></i></button>
+                        <button class="btnrow5 numkeys buttons" id="key0" value="0">0</button>
+                        <button class="btnrow5 otherkeys buttons" id="keydot" value=".">.</button>
+                        <button class="btnrow5 buttons" id="keyequal" value="=">=</button>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </main>
+    </section>
+</body>
+<script src="script.js"></script>
+<script src="calculation.js"></script>
+</html>
